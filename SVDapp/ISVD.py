@@ -2,6 +2,20 @@ import numpy as np
 import numpy.linalg as ln
 
 
+def checkMatrixShapes(matrixA1, matrixA2):
+    if matrixA1.shape[0] != matrixA2.shape[0]:
+        raise ValueError('Błąd: liczba wierszy w macierzy A1 i A2 powinna być taka sama')
+
+
+def checkParams(m, n1, n2, k):
+    if k < 1:
+        raise ValueError('Błąd: rząd k musi być równy lub większy od 1')
+    if k > min(m, n1 + n2):
+        raise ValueError('Błąd: rząd k musi być równy lub mniejszy od min(m, n1 + n2)')
+    if not isinstance(k, int):
+        raise ValueError('Błąd: rząd k musi być liczbą całkowitą')
+
+
 def ISVD(matrixA1, matrixA2, k, only_uk=False):
     """Zastosuj Incremental SVD dla macierzy z nowymi kolumnami
 
@@ -11,21 +25,16 @@ def ISVD(matrixA1, matrixA2, k, only_uk=False):
   :param k: rząd przybliżenia
   :returns: przybliżenie rzędu k U, S, V^T jako wynik svd([mat_a1, mat_a2])
   """
-
-    if matrixA1.shape[0] != matrixA2.shape[0]:
-        raise ValueError('Błąd: liczba wierszy w macierzy A1 i A2 powinna być taka sama')
+    # sprawdź czy liczba wierszy A1 i A2 jest taka sama
+    checkMatrixShapes(matrixA1, matrixA2)
 
     # znajdź rozmiar macierzy
     m = matrixA1.shape[0]  # m - liczba wierszy macierzy B1 i B2
     n1 = matrixA1.shape[1]  # n1 - liczba kolumn macierzy B1
     n2 = matrixA2.shape[1]  # n2 - liczba kolumn macierzy B2
 
-    if k < 1:
-        raise ValueError('Błąd: rząd k musi być równy lub większy od 1')
-    if k > min(m, n1 + n2):
-        raise ValueError('Błąd: rząd k musi być równy lub mniejszy od min(m, n1 + n2)')
-    if not isinstance(k, int):
-        raise ValueError('Błąd: rząd k musi być liczbą całkowitą')
+    # sprawdź czy parametry spełniają założenia 1<=k<=min(m, n1+n2)
+    checkParams(m, n1, n2, k)
 
     # zastosuj SVD na oryginalnej macierzy A1
     matrixU1, singularVector1, matrixV1 = ln.svd(matrixA1, full_matrices=False)

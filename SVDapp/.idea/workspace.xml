@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea964e3-479c-4087-879b-12fb83095b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/allbut.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/mku.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.genre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.item" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.occupation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u1.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u1.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u2.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u2.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u3.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u3.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u4.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u4.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u5.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/u5.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/ua.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/ua.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/ub.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movielens/ub.test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/approSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/incrementalApproSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/IASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/incrementalSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ISVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testASVD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testIASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testIASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testISVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/IASVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ISVD.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
