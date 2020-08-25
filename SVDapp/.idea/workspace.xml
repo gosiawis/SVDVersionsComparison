@@ -2,12 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea964e3-479c-4087-879b-12fb83095b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/approSVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrementalApproSVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/incrementalSVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testASVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testIASVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testISVD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/allbut.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/mku.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.genre" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.item" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.occupation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u1.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u1.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u2.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u2.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u3.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u3.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u4.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u4.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u5.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/u5.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/ua.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/ua.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/ub.base" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movielens/ub.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incrementalApproSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/IASVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incrementalSVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ISVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testASVD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testIASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testIASVD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testISVD.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +55,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -41,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in testISVD.py">
+  <component name="RunManager" selected="Python.movielens">
     <configuration name="incrementalApproSVD" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SVDapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +85,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/incrementalApproSVD.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\malgo\Desktop\STUDIA\sem_5\Seminarium\SVDVersionsComparison\SVDapp\IASVD.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movielens" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SVDapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movielens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.movielens" />
         <item itemvalue="Python tests.Unittests in testISVD.py" />
         <item itemvalue="Python tests.Unittests in testIASVD.py" />
         <item itemvalue="Python.incrementalApproSVD" />
@@ -117,10 +170,36 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/movielens.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/movielens.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/movielens.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

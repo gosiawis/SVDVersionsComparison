@@ -1,9 +1,11 @@
-from incrementalApproSVD import *
+
 import numpy as np
 import unittest
 
+from IASVD import IASVD
 
-class TestIncrementalSVD(unittest.TestCase):
+
+class TestIASVD(unittest.TestCase):
 
     def testSVD(self):
         k = 5
@@ -23,7 +25,7 @@ class TestIncrementalSVD(unittest.TestCase):
         for i in range(n2):
             p2[i] = np.count_nonzero(matrixB2[:, i]) / float(nonZeroB2)
 
-        matrixHK = incrementalApproSVD(matrixB1, matrixB2, n1 - 5, n2 - 1, k, p1, p2)
+        matrixHK = IASVD(matrixB1, matrixB2, n1 - 5, n2 - 1, k, p1, p2)
         matrixA = np.hstack((matrixB1, matrixB2))
         np.testing.assert_array_almost_equal(np.dot(np.dot(matrixHK, matrixHK.T), matrixA), matrixA)
 
