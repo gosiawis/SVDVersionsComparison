@@ -31,13 +31,14 @@ def ASVD(matrixM, c, k, p):
   :param p: prawdopodobieństwo próbkowania dla każdej kolumny macierzy M
   :returns: H_k macierz jako wartość wyjściowa ApproSVD (H_k H_k^T = I)
   """
-
+    # sprawdź czy wartość prawdopodobieństw jest zgodna z założeniami
     checkProbabilities(p)
 
     # znajdź rozmiar macierzy
     m = matrixM.shape[0]  # m - liczba wierszy macierzy M
     n = matrixM.shape[1]  # n - liczba kolumn macierzy M
 
+    # sprawdź czy wartość parametrów jest zgodna z założeniami 1<=k<=c<=m
     checkParameters(m, c, k)
 
     # próbkuj c kolumn z macierzy A i utwórz z nich macierz C
