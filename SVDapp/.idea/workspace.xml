@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea964e3-479c-4087-879b-12fb83095b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/computeError.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crossValidateIASVD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crossValidateISVD.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movielens.py" beforeDir="false" afterPath="$PROJECT_DIR$/validation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
