@@ -51,7 +51,7 @@ def ASVD(matrixM, c, k, p):
     matrixU, singularVector, matrixV = ln.svd(matrixC, full_matrices=False)
     matrixS = np.diag(singularVector)
 
-    # keep rank-k approximation
+    # przybliżenie rzędu k
     matrixUK = matrixU[:, :k]
     singularVectorK = singularVector[:k]  # keep values up to k value
     matrixVK = matrixV[:k, :]
