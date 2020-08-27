@@ -1,4 +1,4 @@
-from ISVD import *
+from algorithmISVD import *
 import numpy as np
 import unittest
 

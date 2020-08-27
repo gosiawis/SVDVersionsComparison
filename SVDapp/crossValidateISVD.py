@@ -1,5 +1,5 @@
 import time
-from ISVD import *
+from algorithmISVD import *
 from sklearn.model_selection import KFold
 from computeError import *
 from helper import *

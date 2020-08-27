@@ -2,7 +2,7 @@
 import numpy as np
 import unittest
 
-from IASVD import IASVD
+from algorithmIASVD import IASVD
 
 
 class TestIASVD(unittest.TestCase):

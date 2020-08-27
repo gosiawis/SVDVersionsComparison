@@ -1,0 +1,20 @@
+Sprawdzenie krzyzowe IASVD dla zmiennego c1
+900&100&\textbf{500}&50&10&1.6890&0.3375&46.455\\ \hline
+900&100&\textbf{600}&50&10&2.0325&0.4281&48.115\\ \hline
+900&100&\textbf{700}&50&10&1.9808&0.4143&49.683\\ \hline
+900&100&\textbf{800}&50&10&2.3255&0.4893&53.794\\ \hline
+Sprawdzenie krzyzowe IASVD dla zmiennego k
+900&100&800&50&\textbf{10}&2.2885&0.5102&53.558\\ \hline
+900&100&800&50&\textbf{100}&1.6105&0.4930&54.693\\ \hline
+900&100&800&50&\textbf{400}&1.8301&0.4921&58.209\\ \hline
+900&100&800&50&\textbf{600}&0.9513&0.2095&59.856\\ \hline
+Sprawdzenie krzyzowe ISVD dla zmiennego n1
+\textbf{500}&50&10&1.8770&0.3146&11.126\\ \hline
+\textbf{600}&50&10&0.6546&0.0685&14.849\\ \hline
+\textbf{700}&50&10&0.1923&0.0211&18.891\\ \hline
+\textbf{800}&50&10&0.1207&0.0144&24.010\\ \hline
+Sprawdzenie krzyzowe ISVD dla zmiennego k
+800&50&\textbf{10}&0.1935&0.0207&25.251\\ \hline
+800&50&\textbf{100}&0.3452&0.0636&24.561\\ \hline
+800&50&\textbf{400}&0.2808&0.0553&26.799\\ \hline
+800&50&\textbf{600}&0.2796&0.0362&27.967\\ \hline

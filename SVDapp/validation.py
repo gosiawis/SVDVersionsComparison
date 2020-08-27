@@ -1,6 +1,6 @@
-from flixsterDataset import flixster
-from movielensDataset import movielens
+from datasetFlixster import flixster
+from datasetMovielens import movielens
 
 if __name__ == '__main__':
-    # movielens()
+    movielens()
     flixster()

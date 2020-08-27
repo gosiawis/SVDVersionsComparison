@@ -1,5 +1,5 @@
 import time
-from IASVD import *
+from algorithmIASVD import *
 from sklearn.model_selection import KFold
 from computeError import *
 from helper import *
@@ -14,6 +14,7 @@ def crossValidateIASVD(ratings, k, n1, n2, c1, c2, n_users, n_movies):
     t0 = time.clock()
     for train_indices, test_indices in kf.split(ratings):
         # rozdziel oceny do testowania i trenowania
+        print("TEST: ", test_indices, "TRAIN: ", train_indices)
         ratings_train = ratings[train_indices]
         ratings_test = ratings[test_indices]
 
@@ -35,7 +36,6 @@ def crossValidateIASVD(ratings, k, n1, n2, c1, c2, n_users, n_movies):
         p2 = np.zeros(n2)
         for i in range(n2):
             p2[i] = np.count_nonzero(mat_b2[:, i]) / float(nnz_b2)
-
 
         mat_hk = IASVD(mat_b1, mat_b2, c1, c2, k, p1, p2)
 
