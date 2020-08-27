@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea964e3-479c-4087-879b-12fb83095b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/outFlixster.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runAlgorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmIASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmISVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkAlgorithm.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crossValidateASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/crossValidateASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crossValidateIASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/crossValidateIASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crossValidateISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/crossValidateISVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flixsterDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasetFlixster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movielensDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasetMovielens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outMovielens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outMovielens.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testIASVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testIASVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testISVD.py" beforeDir="false" afterPath="$PROJECT_DIR$/testISVD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasetFlixster.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasetFlixster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasetMovielens.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasetMovielens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/runAlgorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

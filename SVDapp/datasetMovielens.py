@@ -1,6 +1,6 @@
 import numpy as np
 
-from runAlgorithm import runIASVD, runISVD
+from runAlgorithm import runAll
 
 
 def movielens():
@@ -18,15 +18,4 @@ def movielens():
             ratings.append(list(line.rstrip().split('\t')))
     ratings = np.asarray(ratings)
 
-    print("MOVIELENS START")
-    c1_IASVD, k_IASVD = runIASVD(ratings, n_users, n_movies)
-    n1_ISVD, k_ISVD = runISVD(ratings, n_users, n_movies)
-    print("MOVIELENS END")
-
-    outMovielens = open("outMovielens.txt", "w")
-    for test in [c1_IASVD, k_IASVD, n1_ISVD, k_ISVD]:
-        for line in test:
-            if type(line) is str:
-                outMovielens.write(line)
-                outMovielens.write("\n")
-    outMovielens.close()
+    runAll(ratings, n_users, n_movies, dataset_name="MOVIELENS", filename="outMovielens.txt")

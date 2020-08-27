@@ -1,7 +1,7 @@
 import numpy as np
 from collections import Counter
 
-from runAlgorithm import runIASVD, runISVD
+from runAlgorithm import runAll
 
 
 def sampleDataset(ratings):
@@ -62,15 +62,4 @@ def flixster():
     ratings, n_movies, n_users = sampleDataset(ratings)
     ratings = np.asarray(ratings)
 
-    print("FLIXSTER START")
-    c1_IASVD, k_IASVD = runIASVD(ratings, n_users, n_movies)
-    n1_ISVD, k_ISVD = runISVD(ratings, n_users, n_movies)
-    print("FLIXSTER END")
-
-    outFlixster = open("outFlixster.txt", "w")
-    for test in [c1_IASVD, k_IASVD, n1_ISVD, k_ISVD]:
-        for line in test:
-            if type(line) is str:
-                outFlixster.write(line)
-                outFlixster.write("\n")
-    outFlixster.close()
+    runAll(ratings, n_users, n_movies, dataset_name="FLIXSTER", filename="outFlixster.txt")
